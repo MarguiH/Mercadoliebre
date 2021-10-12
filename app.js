@@ -22,7 +22,7 @@ app.get ("/regmoli", (req, res) => {res.sendFile (__dirname + "/views/regmoli.ht
 
 // .get para escuchar cuando se solicitan datos, req, res. res.sendfile 
 //envio a ruta raiz de archvo html
-app.listen (process.env.PORT || 5000 , function() => { console.log ("levantaste el servior");}); 
+app.listen (process.env.PORT || 5000 , () => { console.log ("levantaste el servior");}); 
 // metodo listen
 // para que el servidor escuche peticiones , se ejecuta un callback cuando el servidor este levantado 
 //correctamente, esto sale por la terminal.
