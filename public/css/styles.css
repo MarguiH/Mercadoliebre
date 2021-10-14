@@ -46,6 +46,7 @@ header .form{
     align-self: center;
 }
 header nav{
+    display:none;
     font-size: 12px;
     margin-left: 20px;
     display: none;
@@ -62,11 +63,6 @@ header ul li a{
     text-decoration: none;
     color: #000;
     margin-right: 5px;
-    
-}
-.lista1, .lista2 {
-    display: flex;
-    flex-direction: row;
     
 }
 
@@ -86,11 +82,11 @@ header .form .submit{
     font-size: 100%;
 }
 
-div.burger-menu{
-    text-align: center;
+.burger-menu{
+        text-align: center;
 }
 
-div.burger-menu i{
+.burger-menu i{
     background-color: #0044AA;
     border-radius:5px;
     color: #FFF;
@@ -181,7 +177,7 @@ main section article i:hover {
 }
 
 main section h4{
-    display:none
+    display:none;
     margin: 20px 0px;
 }
 article {
@@ -229,8 +225,7 @@ transition: box-shadow 1s;}
         margin-top: 20px;
         font-size: 16px;
     }
-    }
-
+    
     main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
@@ -277,6 +272,11 @@ transition: box-shadow 1s;}
 
 .fas fa-truck:hover
     {transform:rotate(90deg)}
+.lista1, .lista2 {
+    display: flex;
+    flex-direction: row;
+    
+}
 
 @media (min-width: 769px){
     main section div.productos article{
@@ -335,4 +335,5 @@ textarea:required {
     color: palegoldenrod;
     padding: 5px, 10px;
     border-radius: 15%;
+}
 }
